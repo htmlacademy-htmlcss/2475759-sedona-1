@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Белоус](https://up.htmlacademy.ru/htmlcss-individual/1/user/2475759).
-* Наставник: `Артем Именин'.
+* Наставник: [Артем Именин](https://github.com/aimenin)
 
 ---
 
