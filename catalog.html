@@ -32,11 +32,9 @@
               <span class="visually-hidden">Избранное</span>
             </a>
           </li>
-          <li class="navigation-item">
-            <button class="button button-want-here">Хочу сюда</button>
-          </li>
         </ul>
       </nav>
+      <button class="button button-want-here">Хочу сюда!</button>
     </header>
     <main class="main-inner">
       <header class="inner-header">
@@ -53,8 +51,7 @@
       </header>
       <section class="catalog-products">
         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-group">
+        <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
@@ -100,17 +97,25 @@
             </li>
           </ul>
           </fieldset>
+          </section>
+          <section class="hotel-price">
+            <h2 class="visually-hidden">Поиск по цене</h2>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <input type="text" name="price-from" value="0">от
+            <input type="text" name="price-to" value="9000">до
+            <input type="range" name="price">
+          </form>
         <button class="button" type="submit">Применить</button>
         <button class="button" type="submit">Сбросить</button>
-        </form>
-       </section>
-       <section class="search-hotels">
+      </section>
+        <section class="search-hotels">
         <h2 class="search-hotel-title">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
           <option value="popular">Сначала популярное</option>
         </select>
+        </section>
         <a href="#" class="button">
           <span class="visually-hidden">Показать карточки</span>
         </a>
@@ -147,7 +152,6 @@
               <a class="product-card-button button" href="#">в избранное</a>
               <span class="visually-hiden product-card-rating">4 звезды</span>
               <p class="product-card-rating">РРейтинг: 9,2</p>
-
             </div>
           </li>
           <li class="product-card-item">
@@ -162,7 +166,6 @@
                 <a class="product-card-button button" href="#">в избранное</a>
                 <span class="visually-hiden product-card-rating">3 звезды</span>
                 <p class="product-card-rating">Рейтинг: 6,9</p>
-
               </div>
             </li>
             <li class="product-card-item">
@@ -177,7 +180,6 @@
                   <a class="product-card-button button" href="#">в избранное</a>
                   <span class="visually-hiden product-card-rating">2 звезды</span>
                   <p class="product-card-rating">Рейтинг: 5,0</p>
-
                 </div>
               </li>
           </ul>
@@ -201,9 +203,7 @@
               <a class="pagination-link" href="#">10</a>
             </li>
           </ol>
-        </section>
-        </main>
-        <section class="newsletter">
+          <section class="newsletter">
           <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
           <p class="newsletter-desription">Только полезная информация и никакого спама, честное бойскаутское!</p>
            <form class="newsltter-form" action="https://echo.htmlacademy.ru/" method="post" >
@@ -211,16 +211,17 @@
            <label for="newletter-email">Email</label>
            <button class="button newsletter-button" type="submit">Подписаться</button>
            </form>
-         </section>
+          </section>
+        </main>
          <footer class="page-footer">
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="button" href=" https://vk.com/htmlacademy">
                 <span class="visually-hidden">Vkontakte</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href=" https://t.me/htmlacademy ">
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href=" https://t.me/htmlacademy ">
           <span class="visually-hidden">Telegram</span>
         </a>
       </li>
