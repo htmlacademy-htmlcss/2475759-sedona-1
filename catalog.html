@@ -101,8 +101,10 @@
           <section class="hotel-price">
             <h2 class="hotel-price-title">Стоимость, ₽:</h2>
           <form action="https://echo.htmlacademy.ru" method="post">
-          <input type="text" name="hotel-price-from" value="0">от
-          <input type="text" name="hotel-price-to" value="9000" >до
+          <p class="form-hotel-price-from"><label class="hotel-price" for="hotel-price-from">от</label>
+          <input type="text" name="hotel-price-from" value="0" id="hotel-price-from"></p>
+          <p class="form-hotel-price-to" ><label class="hotel-price" for="hotel-price-to">до</label>
+          <input type="text" name="hotel-price-to" value="9000" id="hotel-price-to" ></p>
           <input type="range" name="hotel-price-range">
           <button class="button" type="submit">Применить</button>
         <button class="button" type="submit">Сбросить</button>
