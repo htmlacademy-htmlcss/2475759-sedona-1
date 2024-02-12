@@ -32,8 +32,9 @@
 
 body {
     font-family: "PT sans", sans-serif;
-    font-size: 18;
-    font-weight: 21;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     color: #000000;
     background-color: #ffffff;
 }
@@ -74,17 +75,23 @@ body {
     background-repeat: no-repeat;
 }
 
-.button-want-here {
+.button {
 
     font-family: inherit;
     font-weight: 700;
-    font-Size: 16px;
+    font-size: 16px;
     line-height: 20px;
     text-align: center;
-    background-color: #756157;
     color: #ffffff;
     border-radius: 4px;
     text-decoration-line: none;
+
+}
+
+.button-want-here {
+
+    background-color: #756157;
+
 }
 
 .hero {
@@ -302,7 +309,27 @@ body {
 
 }
 
+.newsletter-catalog {
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
 .newsletter-title {
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+.newsletter-catalog-title {
 
     font-weight: 700;
     font-size: 30px;
@@ -317,12 +344,13 @@ body {
     font-size: 20px;
     line-height: 36px;
     text-align: center;
+    border-radius: 4px;
     background-color: #82B3D3;
     color: #ffffff;
 
 }
 
-.footer-phone{
+.footer-phone {
 
     font-family: inherit;
     font-weight: 400;
@@ -330,6 +358,202 @@ body {
     line-height: 40px;
     text-align: center;
     background-color: #ffffff;
-    color:#000000;
+    color: #000000;
     text-decoration: none;
+
+}
+
+.main-catalog {
+
+    font-family: inherit;
+    font-weight: 400;
+    font-Size: 18px;
+    line-height: 23px;
+    background-image: url(../images/backgroung-catalog.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #82B3D3;
+    color: #ffffff;
+
+}
+
+.main-inner-title {
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+
+}
+
+.breadcrumbs {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.breadcrumbs-main-link {
+
+    background-image: url(../images/breadcrumbs/breadcrumbs-main.svg);
+    background-repeat: no-repeat;
+
+}
+
+.catalog-filter-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.hotel-price-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.button-apply {
+
+    background-color: #82B3D3;
+
+}
+
+.button-throw-off {
+
+    background-color: transparent;
+
+}
+
+.search-hotels {
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.button-show-cards {
+
+    background-image: url(../images/View-icon/View-icon-cards.svg);
+    background-repeat: no-repeat;
+
+}
+
+.button-one-product {
+
+    background-image: url(../images/View-icon/View-icon-one-product.svg);
+    background-repeat: no-repeat;
+
+}
+
+.button-show-list {
+
+    background-image: url(../images/View-icon/View-icon-list.svg);
+    background-repeat: no-repeat;
+
+}
+
+.product-card {
+
+    background-color: #ffffff;
+
+}
+
+.product-card-description {
+
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color:#333333;
+
+}
+
+.product-card-price span {
+
+    text-align:right;
+}
+
+.product-card-button-detailed {
+
+    background-color: #756157;
+
+}
+
+.product-card-button-favorites-current {
+
+    background-color: #7DB54F;
+
+}
+
+.product-card-button-favorites {
+
+    background-color: #82B3D3;
+
+}
+
+.product-card-rating {
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #333333;
+
+}
+
+.product-card-4-star-rating {
+
+   background-image: url(../images/stars/stars-4.svg);
+   background-repeat: no-repeat;
+
+}
+
+.product-card-3-star-rating {
+
+    background-image: url(..//images/stars/stars-3.svg);
+    background-repeat: no-repeat;
+}
+
+.product-card-2-star-rating {
+
+    background-image: url(../images/stars/stars-2.svg);
+    background-repeat: no-repeat;
+}
+
+.pagination-link {
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #82B3D3;
+    color: #ffffff
+}
+
+.pagination-link-current {
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #000000;
+}
+
+.field {
+
+    background-color: #F2F2F2;
 }
