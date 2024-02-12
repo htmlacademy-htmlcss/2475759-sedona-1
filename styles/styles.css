@@ -126,7 +126,6 @@ body {
 
 .description p {
 
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
 }
@@ -134,13 +133,7 @@ body {
 .advantages-list {
 
     font-family: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
     text-align: center;
-    background-color: #ffffff;
-    color: #000000;
-
 
 }
 
@@ -163,7 +156,6 @@ body {
 
     background-color: rgba(131, 179, 211, 0.12);
     background-size: 100% auto;
-    color: #000000;
 
 }
 
@@ -179,7 +171,7 @@ body {
 
     background-color: rgba(131, 179, 211, 0.2);
     background-size: 100% auto;
-    color: #000000;
+
 }
 
 .advantages-item-road h3 {
@@ -194,8 +186,6 @@ body {
     font-family: inherit;
     font-weight: 700;
     text-align: center;
-    background-color: #ffffff;
-    color: #000000;
 
 }
 
@@ -217,12 +207,7 @@ body {
 .services-list {
 
     font-family: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
     text-align: center;
-    background-color: #ffffff;
-    color: #000000;
 
 }
 
@@ -265,12 +250,10 @@ body {
 .find-hotel {
 
     font-family: inherit;
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    background-color: #ffffff;
-    color: #000000
+
 }
 
 .find-hotel h2 {
@@ -297,7 +280,6 @@ body {
 .newsletter {
 
     font-family: inherit;
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
@@ -312,12 +294,10 @@ body {
 .newsletter-catalog {
 
     font-family: inherit;
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    background-color: #ffffff;
-    color: #000000;
+
 
 }
 
@@ -366,8 +346,6 @@ body {
 .main-catalog {
 
     font-family: inherit;
-    font-weight: 400;
-    font-Size: 18px;
     line-height: 23px;
     background-image: url(../images/backgroung-catalog.jpg);
     background-repeat: no-repeat;
@@ -470,16 +448,13 @@ body {
 
 
     font-family: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color:#333333;
+    color: #333333;
 
 }
 
 .product-card-price span {
 
-    text-align:right;
+    text-align: right;
 }
 
 .product-card-button-detailed {
@@ -503,7 +478,6 @@ body {
 .product-card-rating {
 
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
@@ -514,8 +488,8 @@ body {
 
 .product-card-4-star-rating {
 
-   background-image: url(../images/stars/stars-4.svg);
-   background-repeat: no-repeat;
+    background-image: url(../images/stars/stars-4.svg);
+    background-repeat: no-repeat;
 
 }
 
