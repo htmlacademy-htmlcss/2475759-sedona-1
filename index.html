@@ -33,11 +33,11 @@
             <li class="navigation-item-favorite">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">Избранное</span>
-                <span class="notification-badge">12</span>
+                <!-- <span class="notification-badge">12</span> -->
               </a>
             </li>
-            <li class="navigation-button">
-              <a class="button button-want-here" href="#">Хочу сюда!</a>
+            <li class="button ">
+              <a class="button advantages-button" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +50,7 @@
           </div>
         </section>
         <section class="description">
-          <h2 class="description-title">Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
+          <h2 class="description-title">Седона - небольшой городок в Аризоне,заслуживающий большего!</h2>
           <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
         <section>
@@ -58,8 +58,10 @@
           <ul class="advantages-list">
             <li class="advantages-item">
               <div class="advantages-columns realy-town">
-                <h3 class="advantages-title">Настоящий городок</h3>
-                <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                <div class="advantages-blue">
+                  <h3 class="advantages-title">Настоящий городок</h3>
+                  <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                </div>
                 <img class="advantages-image-town" src="images/advantages/photo-1.jpg" width="800" height="385"
                   alt="Американский городок">
               </div>
@@ -82,8 +84,10 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-columns birge-of-devil">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
-                <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                <div class="advantages-blue">
+                  <h3 class="advantages-title">Там есть мост дьявола</h3>
+                  <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                </div>
                 <img class="advantages-image-birge-of-devil" src="images/advantages/photo-2.jpg" width="800"
                   height="385" alt="Каньон-мост дьявола">
               </div>
@@ -94,23 +98,30 @@
           <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
           <p>Опытный персонал и качественное обслуживание!</p>
         </section>
-        <section>
+        <section class="service-advantages">
           <h2 class="visually-hidden ">Сервис</h2>
           <ul class="services-list">
-            <li class="services-item-house">
+            <li class="services-item">
               <div class="services-columns">
+                <span class="services-item-house "></span>
                 <h3 class="service-name">Жильё</h3>
                 <p class="service-description">Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
+
               </div>
             </li>
-            <li class="services-item-food">
-              <h3 class="service-name">Еда</h3>
-              <p class="service-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <li class="services-item">
+              <div class="services-food">
+                <span class="services-item-food"></span>
+                <h3 class="service-name">Еда</h3>
+                <p class="service-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              </div>
             </li>
-            <li class="services-item-souvenirs">
+            <li class="services-item">
               <div class="services-columns">
+                <span class="services-item-souvenirs"></span>
                 <h3 class="service-name">Сувениры</h3>
                 <p class="service-description">Не только китайского,но и настоящего местного производства!</p>
+
               </div>
             </li>
           </ul>
@@ -124,11 +135,13 @@
         <section class="newsletter">
           <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
           <p class="newsletter-desription">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field" placeholder="Ваш-e-mail" type="email" name="newsletter-email" id="newletter-email"
-              required>
-            <button class="button newsletter-button" type="submit">Подписаться</button>
-          </form>
+          <div class="newsletter-form-container">
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input class="field" placeholder="Ваш-e-mail" type="email" name="newsletter-email" id="newletter-email"
+                required>
+              <button class="button newsletter-button" type="submit">Подписаться</button>
+            </form>
+          </div>
         </section>
       </main>
       <footer class="page-footer">
