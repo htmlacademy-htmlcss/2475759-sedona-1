@@ -62,16 +62,11 @@ body {
     flex-grow: 1;
 }
 
-.page-header {
-    height: 64px;
-}
-
 .navigation {
     display: grid;
     grid-template-columns: 140px 592px 268px;
     grid-gap: 30px;
     width: 1060px;
-    height: 64px;
     margin: 0;
     padding-right: 70px;
     padding-left: 70px;
@@ -106,7 +101,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 64px;
     margin: 0;
     padding: 0;
 }
@@ -130,7 +124,6 @@ body {
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
-
     padding: 22px 12px 22px 12px;
 }
 
